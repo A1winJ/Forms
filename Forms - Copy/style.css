@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+.card{
+ margin: 100px auto;
+ width:700px;
+ 
+
+}
+legend{
+    text-transform: uppercase;
+    padding: 5px 10px;
+    
+    /* background-color: white; */
+    
+}
+header{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.names{
+    font-size: 20px;
+  
+}
+.container{
+    margin:30px;
+    padding: 10px 20px;
+    
+    
+}
+.main{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content:space-around;
+}
+.sec1,.sec2{
+    display: flex;
+    flex-direction: column;
+}
+.sec1{
+    width:10%;
+    gap: 25px;
+    align-items: flex-start;
+}
+.sec2{
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+}
+.box{
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+
+
+.but{
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 10px;
+   margin-left: 40%;
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+}
+.but:hover{
+    color: white;
+    background-color: darkgray;
+    transition: all 0.3s;
+}
+.tbox,.drop{
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.val{
+    
+    visibility: hidden;
+    position: absolute;
+    
+
+}
+.valid{
+    visibility: visible;
+    color: red;
+    position: absolute;
+    top:30px;
+    left:0;
+}
+
+fieldset{
+    background-color: #f2f2f2;
+    box-shadow: 5px 10px 40px 5px #888888;
+    border-radius: 5px;
+    /* border: 2px solid black;
+     */
+}
+.dob{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* fieldset:hover{
+    translate: -5px -10px;
+} */
+
+.check{
+    height: 15px;
+    width: 15px;
+}
+/* .drop{
+    padding: ;
+} */
+textarea{
+    border-radius: 5px;
+}
+.err-icon{
+    visibility: visible;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 20px;
+    color: red;
+}
+
+.icon1,.icon2{
+    visibility: hidden;
+    position: absolute;
+}
+.suc-icon{
+    visibility: visible;
+    color: green;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 20px;
+    
+
+}
